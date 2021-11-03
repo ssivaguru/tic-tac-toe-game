@@ -1,0 +1,24 @@
+.check_box {
+    background-color: beige;
+    width: 215px;
+    height: 215px;
+    display: flex;
+    margin: auto;
+}
+
+
+.cross {
+    &:after {
+        content: "\d7"; /* use the hex value here... */
+        font-size: 50px; 
+        color: brown;
+        text-align: center;
+    }
+}
+
+.circle {
+    border: 10px solid brown;
+    border-radius: 50%;
+    margin: auto;
+    padding: 80px;
+}
